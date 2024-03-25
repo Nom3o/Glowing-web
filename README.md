@@ -14,4 +14,3 @@ Users click to change the screen’s color.
 
 #**Demo**
 
-https://github.com/Nom3o/Glowing-web/assets/132087367/42e215e5-de30-46ef-a1a3-16800fcfc32e

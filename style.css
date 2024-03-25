@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: none;
+}
+
+.red {
+    background-color: #ff7675;
+    color: white;
+    border: 3px solid #ff7675;
+    animation: glow-red 1s infinite alternate;
+}
+
+.green {
+    background-color: #55efc4;
+    color: white;
+    border: 3px solid #55efc4;
+    animation: glow-green 1s infinite alternate;
+}
+
+.yellow {
+    background-color: #ffeaa7;
+    color: white;
+    border: 3px solid #ffeaa7;
+    animation: glow-yellow 1s infinite alternate;
+}
+
+.rand {
+    background-color: #a29bfe;
+    color: white;
+    border: 3px solid #a29bfe;
+    animation: glow-rand 1s infinite alternate;
+}
+
+@keyframes glow-red {
+    from {
+        box-shadow: 0 0 10px #ff7675;
+    }
+    to {
+        box-shadow: 0 0 20px #ff7675;
+    }
+}
+
+@keyframes glow-green {
+    from {
+        box-shadow: 0 0 10px #55efc4;
+    }
+    to {
+        box-shadow: 0 0 20px #55efc4;
+    }
+}
+
+@keyframes glow-yellow {
+    from {
+        box-shadow: 0 0 10px #ffeaa7;
+    }
+    to {
+        box-shadow: 0 0 20px #ffeaa7;
+    }
+}
+
+@keyframes glow-rand {
+    from {
+        box-shadow: 0 0 10px #a29bfe;
+    }
+    to {
+        box-shadow: 0 0 20px #a29bfe;
+    }
+}
+
+@keyframes colorChange {
+    0% { color: #e74c3c; }
+    25% { color: #8e44ad; }
+    50% { color: #3498db; }
+    75% { color: #1abc9c; }
+    100% { color: #f1c40f; }
+}
+.glowing-box {
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    margin-bottom: -1rem;
+    box-shadow: 0 0 8px #2ecc71;
+    animation: pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow {
+    0% { box-shadow: 0 0 8px #44c982; }
+    50% { box-shadow: 0 0 18px #2ecc71; }
+    100% { box-shadow: 0 0 8px #2ecc71; }
+}
+
+h1 {
+    position: relative;
+    top: -125px;
+    animation: colorChange 5s infinite;
+}

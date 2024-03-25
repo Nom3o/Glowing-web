@@ -11,3 +11,7 @@ Users click to change the screen’s color.
 
 
 ***The codebase includes CSS animations for a visually appealing interface and JavaScript for interactive functionality. This project is an excellent example of how simple elements can create a captivating user experience.***
+
+#**Demo**
+
+https://github.com/Nom3o/Glowing-web/assets/132087367/42e215e5-de30-46ef-a1a3-16800fcfc32e
